@@ -4,6 +4,16 @@ module.exports = {
   presets: [],
   darkMode: 'media', // or 'class'
   theme: {
+
+    extend:{
+      colors:{
+        'orange-dark': '#D87D4A',
+        'orange-light': "#fbaf85",
+        'silever-dark': '#F1F1F1',
+        'silver-light': '#FAFAFA'
+      }
+    },
+
     accentColor: ({ theme }) => ({
       ...theme('colors'),
       auto: 'auto',
@@ -315,6 +325,10 @@ module.exports = {
         '"Segoe UI Emoji"',
         '"Segoe UI Symbol"',
         '"Noto Color Emoji"',
+       
+      ],
+      manrope:[
+        "Manrope",
       ],
       serif: ['ui-serif', 'Georgia', 'Cambria', '"Times New Roman"', 'Times', 'serif'],
       mono: [
