@@ -1,3 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* body{
+    overflow-x: hidden;
+} */
+
+.sas{
+    background-image: url(../src/assets/images/Bitmap-bg.png);
+    background-size: cover;
+    background-position: center calc(50% - 15px);
+    background-repeat: no-repeat;
+  }
