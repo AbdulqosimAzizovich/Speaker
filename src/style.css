@@ -12,3 +12,8 @@
     background-position: center calc(50% - 15px);
     background-repeat: no-repeat;
   }
+
+
+.card-image{
+ filter: drop-shadow(-10px 93px 37px silver);
+}

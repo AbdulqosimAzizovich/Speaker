@@ -38,14 +38,10 @@
       </div>
     </header>
     <main>
-      <section id="intro" class="h-[729px] bg-[#141414] mt-[90px] mb-[150px] font-manrope">
+      <section id="intro" class="min-h-[729px] bg-[#141414] mt-[90px] mb-[150px] font-manrope">
         <div class="container mx-auto flex justify-between items-center">
-          <div class="left w-[398px] relative mb-5">
-            <p
-              class="text-[14px] font-normal tracking-[10px] text-[#FFFFFF] backdrop-opacity-50 mb-6"
-            >
-              NEW PRODUCT
-            </p>
+          <div class=" w-[398px] text-center mt-[18vh] lg:m-0 mx-auto lg:text-left text-white z-30">
+            <p class="text-[14px] font-normal tracking-[10px] text-[#FFFFFF] backdrop-opacity-50 mb-6">NEW PRODUCT</p>
             <h2
               class="font-bold text-[56px] leading-[58px] tracking-[2px] uppercase text-[#FFFFFF] mb-6"
             >
@@ -62,95 +58,58 @@
             >
               See Product
             </button>
+
           </div>
-          <picture class="sm:absolute sm:top-20 md:relative md:top-[1px]">
-            <source
-              media="max-width: 375px"
-              srcset="./assets/images/BitmapTablet.png"
-            />
-            <source
-              media="max-width: 768px"
-              srcset="./assets/images/BitmapTablet.png"
-            />
+          <picture class="absolute lg:relative top-40 lg:top-0 scale-150 sm:scale-100 sm:top-[128px] lg:scale-100">
+            <source media="max-width: 375px" srcset="./assets/images/BitmapTablet.png"/>
+            <source media="max-width: 768px" srcset="./assets/images/BitmapTablet.png"/>
             <img src="./assets/images/Bitmap.png" alt="Bitmap" />
           </picture>
         </div>
       </section>
 
       <section class="mb-[200px] font-manrope">
-        <div class="container mx-auto flex items-center justify-between">
-          <div class="bg-[#F1F1F1] w-[350px] h-[204px] rounded-[8px]">
-            <img
-              src="./assets/images/headphone.png"
-              class="relative top-[-70px] left-[105px]"
-              alt="headphone"
-            />
-            <h2
-              class="text-center mt-[-35px] font-bold text-[18px] uppercase leading-[25px]"
-            >
-              Headphones
-            </h2>
-            <p
-              class="text-center font-bold text-[13px] leading-[18px] uppercase"
-            >
-              shop <span class="text-orange-light"> > </span>
-            </p>
-          </div>
-
-          <div class="bg-[#F1F1F1] w-[350px] h-[204px] rounded-[8px]">
-            <img
-              src="./assets/images/speaker.png"
-              class="relative top-[-70px] left-[105px]"
-              alt="headphone"
-            />
-            <h2
-              class="text-center mt-[-35px] font-bold text-[18px] uppercase leading-[25px]"
-            >
-              speakers
-            </h2>
-            <p
-              class="text-center font-bold text-[13px] leading-[18px] uppercase"
-            >
-              shop <span class="text-orange-light"> > </span>
-            </p>
-          </div>
-
-          <div class="bg-[#F1F1F1] w-[350px] h-[204px] rounded-[8px]">
-            <img
-              src="./assets/images/earphone.png"
-              class="relative top-[-70px] left-[105px]"
-              alt="headphone"
-            />
-            <h2
-              class="text-center mt-[-35px] font-bold text-[18px] uppercase leading-[25px]"
-            >
-              earphones
-            </h2>
-            <p
-              class="text-center font-bold text-[13px] leading-[18px] uppercase"
-            >
-              shop <span class="text-orange-light"> > </span>
-            </p>
+        <div class="container mx-auto">
+          <div class="flex justify-around flex-col items-center md:flex-row  gap-y-20">
+            <div class="bg-[#F1F1F1] md:w-[350px] text-center w-full rounded-[8px] pb-[22px]">
+              <img src="./assets/images/headphone.png" class="translate-y-[-80px] block mx-auto card-image" alt="headphone"/>
+              <h2 class="text-center mt-[43px] font-bold text-[18px] uppercase leading-[25px]">Headphones</h2>
+              <p class="text-center font-bold text-[13px] leading-[18px] uppercase">shop <span class="text-orange-light"> > </span></p>
+            </div>
+  
+            <div class="bg-[#F1F1F1] md:w-[350px] text-center w-full rounded-[8px] pb-[22px]">
+              <img src="./assets/images/speaker.png" class="translate-y-[-80px] block mx-auto card-image" alt="headphone"/>
+              <h2 class="text-center mt-[43px] font-bold text-[18px] uppercase leading-[25px]"> speakers</h2>
+              <p class="text-center font-bold text-[13px] leading-[18px] uppercase"> shop <span class="text-orange-light"> > </span> </p>
+            </div>
+  
+            <div class="bg-[#F1F1F1] md:w-[350px] text-center w-full rounded-[8px] pb-[22px]">
+              <img src="./assets/images/earphone.png" class="translate-y-[-80px] block mx-auto card-image" alt="headphone"/>
+              <h2 class="text-center mt-[6  3px] font-bold text-[18px] uppercase leading-[25px]" > earphones</h2>
+              <p  class="text-center font-bold text-[13px] leading-[18px] uppercase" >shop <span class="text-orange-light"> > </span>  </p>
+            </div>
           </div>
         </div>
       </section>
 
       <section class="mb-12 font-manrope">
-        <div class="container mx-auto bg-orange-dark flex items-center">
-          <img src="./assets/images/spcr.svg" alt="SPEAKER" />
-          <div>
-            <h2 class="font-bold text-[56px] text-white w-[261px] mb-6">
-              ZX9 SPEAKER
-            </h2>
-            <p class="font-normal text-[16px] text-white w-[349px] mb-10">
-              Upgrade to premium speakers that are phenomenally built to deliver
-              truly remarkable sound.
-            </p>
-            <a
-              href="#"
-              class="bg-black text-white uppercase py-[15px] px-[30px] font-bold text-[13px] leading-[18px]"
-              >See Product</a
-            >
+        <div class="container mx-auto">
+          <div class="speaker h-[560px] bg-orange-dark lg:flex md:block md:h-[720px] sm:block sm:h-[600px] items-center">
+            <img src="./assets/images/spcr.svg" class="sm:w-[297px] md:w-[497px] lg:w-[797px] flex mx-auto sm:translate-x-10 lg:translate-x-[-15px]" alt="SPEAKER" />
+            <div class="sm:mx-auto sm:text-center lg:text-justify lg:mx-0">
+              <h2 class="font-bold text-[56px] text-white w-[261px] mb-6 sm:mx-auto lg:mx-7">
+                ZX9 SPEAKER
+              </h2>
+              <p class="font-normal text-[16px] text-white w-[349px] mb-10 sm:mx-auto lg:mx-7">
+                Upgrade to premium speakers that are phenomenally built to deliver
+                truly remarkable sound.
+              </p>
+              <a
+                href="#"
+                class="bg-black text-white uppercase py-[15px] px-[30px] font-bold text-[13px] leading-[18px] lg:mx-7"
+                >See Product</a
+              >
+            </div>
           </div>
         </div>
       </section>
