@@ -8,8 +8,8 @@
 
 .sas{
     background-image: url(../src/assets/images/Bitmap-bg.png);
-    background-size: cover;
-    background-position: center calc(50% - 15px);
+    background-size:contain;
+    background-position: center calc(50% - 45px);
     background-repeat: no-repeat;
   }
 

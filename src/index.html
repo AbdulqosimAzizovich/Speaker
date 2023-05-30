@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="../dist/output.css" />
     <!-- main css -->
     <link rel="stylesheet" href="./style.css" />
-    <title>starter</title>
+    <title>Home</title>
   </head>
   <body>
     <header
@@ -28,10 +28,10 @@
             <img src="./assets/icons/logo.svg" alt="Logo" />
           </a>
           <ul class="list hidden md:flex justify-between text-white gap-[34px]">
-            <li class="item"><a href="#" class="link">HOME</a></li>
-            <li class="item"><a href="#" class="link">HEADPHONES</a></li>
-            <li class="item"><a href="#" class="link">SPEAKERS</a></li>
-            <li class="item"><a href="#" class="link">EARPHONES</a></li>
+            <li class="item hover:text-orange-400 duration-500"><a href="#" class="link">HOME</a></li>
+            <li class="item hover:text-orange-400 duration-500"><a href="./headphone/index.html" class="link">HEADPHONES</a></li>
+            <li class="item hover:text-orange-400 duration-500"><a href="#" class="link">SPEAKERS</a></li>
+            <li class="item hover:text-orange-400 duration-500"><a href="#" class="link">EARPHONES</a></li>
           </ul>
           <img class="" src="./assets/icons/korzinka.svg" alt="Korzinka" />
         </nav>
@@ -40,7 +40,7 @@
     <main>
       <section id="intro" class="min-h-[729px] bg-[#141414] mt-[90px] mb-[150px] font-manrope">
         <div class="container mx-auto flex justify-between items-center">
-          <div class=" w-[398px] text-center mt-[18vh] lg:m-0 mx-auto lg:text-left text-white z-30">
+          <div class=" w-[398px] text-center mt-[18vh] lg:m-0 mx-auto lg:text-left text-whit">
             <p class="text-[14px] font-normal tracking-[10px] text-[#FFFFFF] backdrop-opacity-50 mb-6">NEW PRODUCT</p>
             <h2
               class="font-bold text-[56px] leading-[58px] tracking-[2px] uppercase text-[#FFFFFF] mb-6"
@@ -94,13 +94,13 @@
 
       <section class="mb-12 font-manrope">
         <div class="container mx-auto">
-          <div class="speaker h-[560px] bg-orange-dark lg:flex md:block md:h-[720px] sm:block sm:h-[600px] items-center">
-            <img src="./assets/images/spcr.svg" class="sm:w-[297px] md:w-[497px] lg:w-[797px] flex mx-auto sm:translate-x-10 lg:translate-x-[-15px]" alt="SPEAKER" />
-            <div class="sm:mx-auto sm:text-center lg:text-justify lg:mx-0">
-              <h2 class="font-bold text-[56px] text-white w-[261px] mb-6 sm:mx-auto lg:mx-7">
+          <div class="speaker h-[560px] bg-orange-dark lg:flex md:block md:h-[720px] block items-center">
+            <img src="./assets/images/spcr.svg" class="w-[297px] md:w-[497px] lg:w-[797px] flex mx-auto translate-x-10 lg:translate-x-[-15px]" alt="SPEAKER" />
+            <div class="mx-auto text-center lg:text-justify lg:mx-0">
+              <h2 class="font-bold text-[56px] text-white w-[261px] mb-6 mx-auto lg:mx-7">
                 ZX9 SPEAKER
               </h2>
-              <p class="font-normal text-[16px] text-white w-[349px] mb-10 sm:mx-auto lg:mx-7">
+              <p class="font-normal text-[16px] text-white w-[349px] mb-10 mx-auto lg:mx-7">
                 Upgrade to premium speakers that are phenomenally built to deliver
                 truly remarkable sound.
               </p>
@@ -129,13 +129,9 @@
             >
           </div>
           <div class="h-[320px] flex items-center justify-evenly">
-            <img
-              src="./assets/images/earphone-2.png"
-              class="w-[540px]"
-              alt="EARPHONE"
-            />
+            <img src="./assets/images/earphone-2.png" class="lg:w-[540px] md:w-[400px] md:h-[320px] w-[339px] h-[320px]  " alt="EARPHONE" />
             <div
-              class="bg-silever-dark h-[320px] w-[540px] py-[101px] ps-[95.5px]"
+              class="bg-silever-dark h-[320px] lg:w-[540px] md:w-[400px] w-[339px] py-[101px] ps-[95.5px]"
             >
               <h2 class="font-bold text-[28px] leading-[38px] mb-8">
                 ZX7 SPEAKER
@@ -152,7 +148,7 @@
 
       <section class="h-[588px] font-manrope mb-[200px]">
         <div class="container mx-auto">
-          <div class="flex items-center justify-evenly">
+          <div class="lg:flex lg:items-center lg:mx-0 lg:justify-evenly lg:text-justify text-center">
             <div>
               <h2 class="font-bold text-[40px] leading-[44px] mb-8">
                 Bringing you the <br />
@@ -171,7 +167,7 @@
                 best place to buy your portable audio equipment.
               </p>
             </div>
-            <img src="./assets/images/bolakay.png" alt="Kimdur" />
+            <img src="./assets/images/bolakay.png" class="mx-auto w-[389px] lg:w-[540px] lg:mx-0" alt="Kimdur" />
           </div>
         </div>
       </section>
@@ -180,8 +176,8 @@
     <!-- Footer Start -->
     <footer class="bg-black font-manrope">
       <div class="container mx-auto px-[167px]">
-        <div class="flex justify-between py-[75px]">
-          <img src="./assets/icons/logo.svg" alt="" />
+        <div class="lg:flex lg:justify-between block py-[75px]">
+          <img src="./assets/icons/logo.svg" class="lg:flex mx-auto lg:mx-0 mb-4 " alt="" />
           <ul class="list hidden md:flex justify-between text-white gap-[34px]">
             <li class="item"><a href="#" class="link">HOME</a></li>
             <li class="item"><a href="#" class="link">HEADPHONES</a></li>
@@ -189,8 +185,8 @@
             <li class="item"><a href="#" class="link">EARPHONES</a></li>
           </ul>
         </div>
-        <div class="flex justify-between items-center">
-          <p class="w-[540px] text-[15px] leading-[25px] font-medium text-white opacity-50">
+        <div class="lg:flex lg:justify-between lg:items-center ">
+          <p class="lg:w-[540px] w-[327px] lg:text-justify mx-auto lg:mx-0 mb-4 text-center text-[15px] leading-[25px] font-medium text-white opacity-50">
             Audiophile is an all in one stop to fulfill your audio needs. We're a
             small team of music lovers and sound specialists who are devoted to
             helping you get the most out of personal audio. Come and visit our
@@ -202,7 +198,7 @@
             <img src="./assets/icons/inst.svg" alt="">
           </div>
         </div>
-        <p class="pb-12 mt-[56px] w-[540px] text-[15px] leading-[25px] font-medium text-white opacity-50">Copyright 2021. All Rights Reserved</p>
+        <p class="md:mx-[90px] mx-auto lg:mx-0 pb-12 mt-[56px] w-[540px] text-[15px] leading-[25px] font-medium text-white opacity-50">Copyright 2021. All Rights Reserved</p>
       </div>
     </footer>
     <!-- Footer End -->
